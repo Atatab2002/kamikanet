@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="java/script.js" defer></script>
+  <link href="css1/style.css" rel="stylesheet">
+  <title>Tabs</title>
+</head>
+<body>
+  <nav id="nav">
+    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+      <span id="hamburger"></span>
+    </button>
+    
+    <ul id="tabs" role="tabs">
+      
+      <li data-tab-target="#Inicio" class="active tab">Inicio</li>
+      <li data-tab-target="#pricing" class="tab">mangás</li>
+      <li data-tab-target="#about" class="tab">Contato</li>
+    </ul>
+  </nav>
+  <div class="tab-content">
+    <div id="Inicio" data-tab-content class="active">
+      <h1>front end freelancer</h1>
+      <h2>This is the home</h2>
+      <div class="faces">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/campo pixel.png" style="width:100%">
+            <div class="text">Inicio</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/casa.jpg" style="width:100%">
+            <div class="text">meio</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/img4.jpg" style="width:100%">
+            <div class="text">fim</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <center><h5>popular</h5></center>
+      <section class="flex">
+        <div>
+          <img class="imgf" src="img/titan.jpg">
+          <p>attack on titan</p>
+          <a href="html/attack on titan.html" class="boardlink">ler mangá</a>
+          <h3>Para escapar dos titãs, gigantes devoradores de homens, a humanidade se refugiou em cidades cercadas por enormes muralhas. Quando eles voltam a atacar, Eren Yeager se junta à luta para combater as criaturas.</h3>
+        </div>
+        <div>
+          <img class="imgf" src="./img/batman.jpg">
+          <p>Legenda</p>
+        </div>
+        <div>
+          <img class="imgf" src="./img/batman.jpg">
+          <p>Legenda</p>
+        </div>
+        <div>
+          <img class="imgf" src="./img/batman.jpg">
+          <p>Legenda</p>
+        </div>
+        <div>
+          <img class="imgf" src="./img/batman.jpg">
+          <p>Legenda</p>
+        </div>
+        <div>
+          <img class="imgf" src="./img/batman.jpg">
+          <p>Legenda</p>
+        </div>
+      </section>
+    
+    </div>
+  </div>
+  
+  <div id="pricing" data-tab-content>
+    <h1>sites prontos</h1>
+    <h2>Some information on pricing</h2>
+    <div class="main">
+      <div class="container">
+          <iframe class="responsive-iframe" src="my sitef/attack on titan.html"></iframe>
+      </div>
+  </div>
+  </div>
+  <div id="about" data-tab-content>
+    <h1>About</h1>
+    <h2>web devorador</h2>
+  </div>
+  </div>
+  <footer>
+    <a class="redes" href="https://www.instagram.com/atatab2002/"><img src="img/instagram.png" height="30px"
+        width="30px"></a>
+    <a class="redes" href="https://twitter.com/2002Atatab"><img src="img/twitter.png" height="30px"
+        width="30px"></a>
+        <center>
+          <h5>versão beta do site</h5></center>
+  </footer>
+</body>
+</html>
